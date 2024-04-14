@@ -1,0 +1,42 @@
+.banner-content {
+  width: 60%;
+}
+
+.banner {
+  background: linear-gradient(to bottom, rgba(7, 8, 12, 1), rgba(7, 8, 12, 0)),
+    url("./banner.png");
+
+  font-family: "Mulish", sans-serif;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
+}
+
+.banner .overlay {
+  /* background: rgba(0, 0, 0, 0.5); */
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+
+  background: linear-gradient(to bottom, rgba(7, 8, 12, 1), rgba(7, 8, 12, 0));
+}
+
+.buyButton {
+  background: #8e000e;
+  color: #fff;
+  padding: 7px 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.buyButton:hover {
+  background: #65000a;
+}
+
+@media (max-width: 992px) {
+  .banner-content {
+    width: 90% !important;
+  }
+}

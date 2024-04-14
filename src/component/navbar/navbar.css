@@ -1,0 +1,36 @@
+.navbarBG {
+  background: #07080c;
+  color: #fff;
+}
+
+.navbar-nav {
+  padding-right: 10px;
+  display: flex;
+  column-gap: 12px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.nav-link {
+  display: inline;
+}
+
+.nav-link.h_icn1 svg {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 3px;
+}
+
+.nav-link.h_icn2 svg {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 3px;
+}
+
+.nav-link.h_icn3 svg {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 3px;
+}

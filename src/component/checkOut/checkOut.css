@@ -1,0 +1,53 @@
+.chk_hd {
+    background-color: #faf6f6;
+    border: 1.5px solid #c42731;
+    border-bottom: 1px solid lightgray;
+    border-radius: 5px 5px 0 0;
+}
+
+.chk_tbl .table td,
+.chk_tbl .table th {
+    background-color: #faf6f6;
+    padding: 12px 0;
+}
+
+.chk_tbl {
+    border: 1.5px solid #c42731;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.chk_prc{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.chk_tbl p {
+    font-size: 14px;
+    background-color: #faf6f6;
+    text-align: left;
+    color: #c42731;
+}
+
+.chk_prc{
+    border-top: 1.5px solid #c42731;
+    background-color: #EFEFEF;
+}
+
+.chk_btn button{
+    width: 100%;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 14px 0px;
+    border-radius: 5px;
+    background-color: #c42731;
+}
+
+.chk_btn button:hover{
+    background-color: #cf3842;
+}
+
+.cart_lft svg{
+    width: 20px;
+    cursor: pointer;
+}

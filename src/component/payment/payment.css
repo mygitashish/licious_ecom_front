@@ -1,0 +1,90 @@
+.pay_main .progress {
+    height: 3px;
+}
+
+.pay_main {
+    position: relative;
+    height: 50px;
+
+}
+
+.pay_main .sh_ {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C42731;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+
+.pay_main .sh_::after {
+    content: 'Shipping';
+    top: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.pay_main .progress-bar {
+    background-color: #C42731;
+}
+
+.pay_main .bl_ {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C42731;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 3px;
+}
+
+.pay_main .bl_::after {
+    content: 'Billing';
+    top: 15px;
+    position: absolute;
+    left: 0;
+}
+
+.pay_main .co_ {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C42731;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+.pay_main .co_::after {
+    content: 'Confirmation';
+    top: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.paymnt_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymnt_btn button:first-child {
+    width: 20%;
+    padding: 10px 0px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.paymnt_btn button:last-child {
+    width: 40%;
+    padding: 10px 0px;
+    border: none;
+    background-color: #C42731;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.paymnt_btn button:last-child:hover{
+    background-color: #c43841;
+}

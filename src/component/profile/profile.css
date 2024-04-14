@@ -1,0 +1,54 @@
+
+.prf_dv{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    padding: 3px;
+}
+
+.prf_dv img{
+
+    border-radius: 50%;
+}
+
+.prf_dv .prf_ed_ic{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    background-color: #C42731;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sub_prf{
+    background-color: #C42731;
+    border: none;
+    padding: 12px 0;
+    width: 40%;
+    
+    border-radius: 20px;
+}
+
+.sub_prf:hover{
+    background-color: #C42731;
+    opacity: 0.9;
+}
+
+.Prf_form_main label{
+    width: 100%;
+    text-align: left;
+    color: #bb575e;
+}
+
+.Prf_form_main input{
+    border: 1px solid #bb575e;
+}
+
+.prf_dv_p{
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.img_icon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-45%, -50%);
+    width: 55px;
+    top: 12px;
+}
+
+.hdg_tx{
+    color: #C42731;
+}

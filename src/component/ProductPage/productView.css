@@ -1,0 +1,35 @@
+.detl_pq strong{
+    font-size: 25px;
+}
+
+.detl_pq button{
+    border-radius: 50%;
+    border: none;
+    background-color: #C42731;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.detl_buy button{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 18px;
+}
+
+.detl_buy button:first-child{
+    background-color: #C42731;
+    color: #fff;
+}
+
+.detl_buy button:last-child{
+    background-color: #fff;
+    border:2px solid #C42731;
+    color: #C42731;
+}
+
+.bg_img{
+    border:3px solid #C42731;
+    border-radius: 8px;
+    width: 95%;
+    height: 400px;
+}

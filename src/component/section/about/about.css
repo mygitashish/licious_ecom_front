@@ -1,0 +1,19 @@
+.about-content h6 {
+  font-size: 1.4rem;
+  color: #121212;
+  font-weight: 700;
+}
+.about-content h2 {
+  color: #c42731;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.aboutImgDiv {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.text-left {
+  text-align: left;
+}

@@ -1,0 +1,47 @@
+
+.rev_img{
+    width: 140px;
+    height: 135px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.rev_slk_main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rev_slk_main p{
+    text-align: center;
+}
+
+.rev_slk_main h3{
+    color: #c42731;
+}
+
+.rev_slk_main .hr{
+    width: 70%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: black;
+}
+
+.carousel-control-next{
+    width: auto !important;
+    height: 40px;
+    background: #c42731;
+    opacity: 1;
+    top: 50%;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.carousel-control-prev{
+    width: auto !important;
+    height: 40px;
+    background: #c42731;
+    top: 50%;
+    opacity: 1;
+    border-radius: 50%;
+    padding: 5px;
+}
